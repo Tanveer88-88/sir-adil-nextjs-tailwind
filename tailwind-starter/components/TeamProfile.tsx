@@ -9,7 +9,7 @@ import Thomas from "@/shared/Images/Thomas Mason.webp";
 const TeamProfile = () => {
   return (
     <>
-    <div className="bg-white flex justify-around w-auto max-w-none m-14">
+    <div className="bg-white flex justify-around w-auto max-w-none m-14 flex-wrap">
     <div className="px-6 py-4 text-center pb-48">
         <Image src={Alexa} alt="" className="rounded-full h-32 w-32 object-cover object-top flex items-center"></Image>
         <h3 className="font-bold text-xl">Alexa Kardi</h3>
