@@ -11,6 +11,7 @@ import SplitScreen from "@/components/SplitScreen";
 import BlogPost from "@/components/BlogPost";
 import PricingPlans from "@/components/PricingPlans";
 import NavigationBarwithCenteredMenu from "@/components/NavigationBarwithCenteredMenu";
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
@@ -28,7 +29,8 @@ export default function Home() {
       {/* <SplitScreen/> */}
       {/* <BlogPost/> */}
       {/* <PricingPlans/> */}
-       <NavigationBarwithCenteredMenu />
+      <NavigationBarwithCenteredMenu />
+      {/* <Footer /> */}
     </>
   );
 }
