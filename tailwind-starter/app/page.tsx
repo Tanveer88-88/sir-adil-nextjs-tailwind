@@ -12,7 +12,7 @@ import BlogPost from "@/components/BlogPost";
 import PricingPlans from "@/components/PricingPlans";
 import NavigationBarwithCenteredMenu from "@/components/NavigationBarwithCenteredMenu";
 import Footer from "@/components/Footer";
-
+import Tweet from "@/components/Tweet";
 
 export default function Home() {
   return (
@@ -29,8 +29,9 @@ export default function Home() {
       {/* <SplitScreen/> */}
       {/* <BlogPost/> */}
       {/* <PricingPlans/> */}
-      <NavigationBarwithCenteredMenu />
+      {/* <NavigationBarwithCenteredMenu /> */}
       {/* <Footer /> */}
+      <Tweet/>
     </>
   );
 }
