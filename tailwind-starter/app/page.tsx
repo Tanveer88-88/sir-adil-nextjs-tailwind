@@ -13,7 +13,9 @@ import PricingPlans from "@/components/PricingPlans";
 import NavigationBarwithCenteredMenu from "@/components/NavigationBarwithCenteredMenu";
 import Footer from "@/components/Footer";
 import Tweet from "@/components/Tweet";
-
+import GridMenu from "@/components/GridMenu";
+import GridBlogPost from "@/components/GridBlogPost";
+import GridShoppingCart from "@/components/GridShoppingCart";
 export default function Home() {
   return (
     <>
@@ -31,7 +33,10 @@ export default function Home() {
       {/* <PricingPlans/> */}
       {/* <NavigationBarwithCenteredMenu /> */}
       {/* <Footer /> */}
-      <Tweet/>
+      {/* <Tweet/> */}
+      {/* <GridMenu /> */}
+      {/* <GridBlogPost /> */}
+      <GridShoppingCart/>
     </>
   );
 }
